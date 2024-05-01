@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    /* min-height: 100vh; */
+    color: var(--main-font-color);
+    font-family: sans-serif;
+}
+header {
+    padding: 12px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px #000000; */
+    align-items: center;
+}
+.list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 20px
+}
+/* .list__item {
+    margin: 0 10px;
+
+} */
+.list__link {
+    text-decoration: none;
+color: var(--secondary-font-color);
+}
+.list__link:hover {
+    color: #ffa500 ;
+}
+.buttons {
+display: flex;
+justify-content: space-between;
+gap: 32px;
+
+}
+.btn {
+    width: 110px;
+    height: 46px;
+    background: #FF9900;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.25s;
+}
+.btn:hover {
+    background: #fff;
+    color: var(--secondary-font-color);
+    outline: 1px solid var(--secondary-font-color);
+    cursor: pointer;
+}
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px #000000; */
+    align-items: center;
+}
+.tytle {
+    font-size: 44px;
+}
+
+.btn2 {
+        width: 180px;
+        height: 50px;
+        background: #FF9900;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        transition: all 0.25s;
+}
+.btn2:hover {
+    background: #fff;
+    color: var(--secondary-font-color);
+    outline: 1px solid var(--secondary-font-color);
+    cursor: pointer;
+}
+.tytle2 {
+    font-size: 32px;
+    text-shadow: 0px 2px 1px #00000080;
+    text-align: center;
+}
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px #000000; */
+    align-items: center;
+}
+.now {
+    padding-top: 50px;
+    text-align: center;
+}
+.skills {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center 80%;
+}
+.section {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.tytle3 {
+    font-size: 28px;
+}
+.list_style {
+  list-style-type: none;
+  padding-left: 0;
+}
+.retreat {
+    margin-bottom: 10px ;
+    margin-top: 10px;
+}
+.text {
+ display: inline;
+}
+.input {
+    display: block;
+height: 50px;
+width: 240px;
+}
+.align_items {
+    align-items:flex-start;
+}
